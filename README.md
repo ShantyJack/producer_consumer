@@ -10,9 +10,9 @@ A semaphore is a tool that aids in synchronization of multiple threads. Specific
 The program takes 3 parameters from the command line: buffer size, producer sleep, and consumer sleep in that order. Buffer size is how many integers the buffer should hold, while the two 'sleep' values control how long the two threads sleep each time after producing or consuming a value. Each time they do put an integer into the buffer or take one out, they will print a message to the command line. As long as there is a difference between these sleep values, one of the threads will catch up to spot being used by the other thread, in which case they will stall. If you want to change the sleep values, there are a number of commands to do so
 
 ## Commands
-the commands can be entered any time by pressing the corresponding key:
-a - adds .25 seconds to the producer's sleep time
-z - subtracts .25 seconds from the producer's sleep time
-s - adds .25 seconds to the consumer's sleep time
-x - subtracts .25 seconds from the consumer's sleep time
+the commands can be entered any time by pressing the corresponding key: 
+a - adds .25 seconds to the producer's sleep time  
+z - subtracts .25 seconds from the producer's sleep time  
+s - adds .25 seconds to the consumer's sleep time  
+x - subtracts .25 seconds from the consumer's sleep time  
 q - quits out of the program
